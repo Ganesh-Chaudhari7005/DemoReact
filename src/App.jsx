@@ -10,6 +10,7 @@ function App() {
       <div className="h-screen w-screen d-flex justify-center">
         <Header />
         <Outlet />
+        <Footer/>
       </div>
     </>
   );

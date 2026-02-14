@@ -66,7 +66,7 @@ export function ShoppingStore() {
 
   return (
     <>
-      <div className="h-screen w-screen p-5 flex justify-center overflow-x-hidden">
+      <div className=" p-5 flex justify-center overflow-x-hidden">
         <Popup
           canshow={popup ? 'show' : 'hide'}
           image={popupdata?.image}

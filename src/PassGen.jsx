@@ -33,7 +33,7 @@ export function PassGen() {
     console.log(heading.current.innerText)
   }
   return (
-    <div className="h-screen w-screen flex flex-row justify-center items-center bg-blue-50">
+    <div className="py-10  flex flex-row justify-center items-center bg-blue-50">
       <div className="outerCont bg-blue-950 rounded-lg">
         <h1 ref={heading} className="text-3xl text-white text-center mt-5">
           Password Generator

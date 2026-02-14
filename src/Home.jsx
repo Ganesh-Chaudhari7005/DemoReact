@@ -49,7 +49,6 @@ useEffect(()=>{
 
    return (
      <div className="container-fluid flex flex-col items-center justify-center py-5">
-       <h1>{index}</h1>
        <div className="container py-5 flex justify-center">
          <div className="img-cont-slider">
            <div

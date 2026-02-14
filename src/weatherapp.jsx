@@ -82,7 +82,7 @@ export function WeatherApp() {
 
 
   return (
-    <div className="h-screen w-screen bg-gradient-to-r from-[#060c1a] to-[#1c2230] p-16">
+    <div className="bg-gradient-to-r from-[#060c1a] to-[#1c2230] p-16">
       <div className="grid grid-cols-12">
         <div className="col-span-7">
           <div className="searchCont">

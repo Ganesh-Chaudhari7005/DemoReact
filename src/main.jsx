@@ -5,7 +5,9 @@ import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } 
 import Home from './Home.jsx'
 import About from './About.jsx'
 import Contact from './Contact.jsx'
-
+import {PassGen} from './PassGen.jsx'
+import { ShoppingStore } from './ShoppingStore.jsx'
+import { WeatherApp } from './weatherapp.jsx'
 const routes = createBrowserRouter(
   // {
   //     path :'/',
@@ -28,9 +30,10 @@ const routes = createBrowserRouter(
 
   createRoutesFromElements(
     <Route path="/" element={<App />}>
-      <Route index element={<Home />} /> // shows at "/"
-      <Route path="about" element={<About />} /> // "/about"
-      <Route path="contact" element={<Contact />} /> // "/contact"
+      <Route index element={<Home />} />
+      <Route path="shoppingstore" element={<ShoppingStore />} />
+      <Route path="passwordgenerator" element={<PassGen />} />
+      <Route path="wheather" element={<WeatherApp />} />
     </Route>,
   ),
 );
