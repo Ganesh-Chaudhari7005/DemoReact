@@ -1,0 +1,300 @@
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+.cust-card {
+  border: 1px solid #adacac;
+  height: 500px;
+  width: 302px;
+}
+
+.cust-card:hover {
+  transform: scale(1.03);
+}
+
+
+.outerCont {
+  height: 30%;
+  width: 50%;
+}
+
+.passfield {
+  width: 70%;
+  height: 15%;
+}
+
+.passfield:focus {
+  border: none !important;
+
+}
+
+
+.cpbtn {
+  height: 17%;
+  border-radius: 5px;
+  width: 22%;
+  color: #fff;
+  font-weight: 500;
+}
+
+/* weather App css -- */
+
+.searchbox {
+  width: 70%;
+  border: none;
+  caret-color: #fff;
+  text-transform: capitalize;
+}
+
+.searchbox:focus {
+  border: none;
+  outline: none;
+}
+
+
+.conimg {
+  position: relative;
+  bottom: 20px;
+  width: 400px;
+}
+
+.condclass {
+  text-wrap: wrap;
+}
+
+.searchbtn:focus {
+  border: none;
+  outline: none;
+}
+
+
+.webhead {
+  position: absolute;
+  background-color: #742bec;
+  width: 236px;
+  height: 55px;
+  right: 0;
+  bottom: 85%;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  border-radius: 5px 0 0 5px;
+}
+
+.webhead p {
+  color: #fff;
+  font-size: 25px;
+
+}
+
+
+.cat-head {
+  font-family: "El Messiri", sans-serif !important;
+}
+
+
+
+/* Shopping Store */
+
+
+.loader {
+  height: 500px;
+  width: 302px;
+  background-color: rgb(224, 221, 221);
+  border-radius: 10px;
+  animation: blink 1s infinite ease-in-out;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.4;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+
+.popup-cont{
+  height: auto;
+  width: 50%;
+  background-color:  #fff;
+  position: absolute;
+  top: 10%;
+  box-shadow: 5px 10px 50px #000;
+  border-radius: 10px;
+  z-index: 999;
+  transition: 0.2s linear;
+
+}
+.show {
+  opacity: 1;
+  transform: scale(1);
+  pointer-events: auto;
+}
+
+/* when popup = false */
+.hide {
+  opacity: 0;
+  transform: scale(0.8);
+  pointer-events: none;
+}
+
+@keyframes popvis{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+.img-cont{
+  height: 250px;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+button.shopbtn {
+  background-color: #003778;
+  width: 140px;
+  height: 45px;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.popimg{
+  object-fit: contain;
+  
+}
+
+
+.desc-para{
+  text-align: justify;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+ .card-text {
+   display: -webkit-box;
+   -webkit-box-orient: vertical;
+   -webkit-line-clamp: 3;
+   /* number of lines */
+   overflow: hidden;
+ }
+
+ .card-btn{
+    position: fixed;
+    bottom: 15px;
+    width: 150px;
+    border-radius: 5px;
+ }
+
+ button.hidebtn {
+   font-weight: 800;
+   font-size: 16px;
+   background-color: #890404;
+   width: 25px;
+   height: 25px;
+   text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: #fff;
+   border-radius: 50%;
+   position: absolute;
+   top: 6px;
+   right: 9px;
+ }
+
+ /*img slider*/
+
+
+
+.slider-track{
+  width: 600px;
+  height: 400px;
+  display: flex;
+}
+
+.slider-img{
+  width: 100%;
+  height: 100%;
+}
+
+.img-cont-slider{
+  overflow: hidden;
+}
+
+
+.tran1{
+  transition: 0.5s linear;
+}
+.tran2{
+  transition: 0s linear;
+}
+
+.backward{
+  background-color: yellow;
+  width: 50px;
+  font-weight: 500;
+  border: 1px solid;
+  border-radius: 3px;
+  /* position: absolute; */
+  /* bottom: -73%; */
+  margin-right: 500px;
+}
+.forward{
+  background-color: yellow;
+  width: 50px;
+  font-weight: 500;
+  border: 1px solid;
+  border-radius: 3px;
+  /* position: absolute; */
+  /* bottom: -73%; */
+}
